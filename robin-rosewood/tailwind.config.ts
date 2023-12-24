@@ -19,15 +19,21 @@ const config: Config = {
         'hero-navy': '#1F2041',
       },
       fontSize: {
-        'hero-headline': '10rem'
+        'hero-headline': '6rem'
       },
       lineHeight: {
-        'hero-headline': '8.25rem'
+        'hero-headline': '4.5rem'
       }
     },
     container: {
+      center: true,
+      padding: '2rem',
 
     },
+    'container-full': {
+      width: '100%',
+      margin: '0 auto',
+    }
   },
   plugins: [],
 }
