@@ -20,7 +20,23 @@ export default function Home() {
     </div>
     </div>
   </section>
-  <section>
+  <section id="homepage-block-1">
+
+  </section>
+  <section id="homepage-block-2">
+
+  </section>
+  <section id="homepage-about-block">
+    <h3>About</h3>
+    <div id='headshot' className="w-64 h-64 rounded-full overflow-hidden">
+      <Image
+        width={450}
+        height={450}
+        src='/images/robin.jpg'
+        alt="Headshot"
+        className="w-full h-full object-cover"
+      />
+    </div>
 
   </section>
   <footer>
